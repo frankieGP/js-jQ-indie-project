@@ -10,9 +10,19 @@ $(document).ready(function(){
     var choice = function(){
 
         if (front === "Yes") {
-          return ("Design");
+        return ("Design");
+        }else if (back === "Yes") {
+        return ("PHP");
+      } else if (mobile === "Yes") {
+        return ("JAVA");
+      } else if (large === "Yes") {
+        return ("C#");
+      } else if (interactive === "Yes") {
+        return ("Ruby");
         }
-      };
+
+
+        };
 
 
 
