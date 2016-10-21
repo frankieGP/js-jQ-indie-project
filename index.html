@@ -9,45 +9,47 @@
         <script src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="container">
-      <h1><em>What Program Language Should I Choose?</em></h1>
-      <br>
-        <form id="choices">
-          <ul>
-            <li><h4>Do you like making things look nice and work well?</h4></li>
-              <select class="form-control" id="frontEnd">
-                <option></option>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-              </select>
-            <li><h4>Or do you prefer to work server side?</h4></li>
-              <select class="form-control" id="backEnd">
-                <option></option>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-              </select>
-            <li><h4>Are you interested in building mobile apps?</h4></li>
-              <select class="form-control" id="mobile">
-                <option></option>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-              </select>
-            <li><h4>Would you like the structure of a large company?</h4></li>
-              <select class="form-control" id="largeCompany">
-                <option></option>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-              </select>
-            <li><h4>Do you like creating user interfaces??</h4></li>
-              <select class="form-control" id="interactive">
-                <option></option>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-              </select>
-          </ul>
-          <br>
-          <button type="submit" class="btn"><u>Submit</u></button>
-        </form>
+    <div class="boxmodel">
+      <div class="container">
+        <h1><em>What Program Language Should I Choose?</em></h1>
+        <br>
+          <form id="choices">
+            <ul>
+              <li><h4>Do you like making things look nice and work well?</h4></li>
+                <select class="form-control" id="frontEnd">
+                  <option></option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              <li><h4>Or do you prefer to work server side?</h4></li>
+                <select class="form-control" id="backEnd">
+                  <option></option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              <li><h4>Are you interested in building mobile apps?</h4></li>
+                <select class="form-control" id="mobile">
+                  <option></option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              <li><h4>Would you like the structure of a large company?</h4></li>
+                <select class="form-control" id="largeCompany">
+                  <option></option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              <li><h4>Do you like creating user interfaces??</h4></li>
+                <select class="form-control" id="interactive">
+                  <option></option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+            </ul>
+            <br>
+            <button type="submit" class="btn"><u>Submit</u></button>
+          </form>
+    </div>
       <br>
       <div id="hidden">
         <p id="tada">You should consider learning <span id="result"></span>!</p>

@@ -1,3 +1,6 @@
+// This is the // This is the business (or back-end) logic:
+
+
 $(document).ready(function(){
   $("form#choices").submit(function(event) {
     var front = $("select#frontEnd").val();
@@ -5,7 +8,9 @@ $(document).ready(function(){
     var mobile = $("select#mobile").val();
     var large = ($("select#largeCompany").val());
     var interactive = $("select#interactive").val();
-
+    $("#result").text(choice);
+    $("#hidden").fadeIn();
+// This is the business (or back-end) logic:
 
     var choice = function(){
 
@@ -27,8 +32,7 @@ $(document).ready(function(){
 
 
 
-    $("#result").text(choice);
-    $("#hidden").fadeIn();
+
     event.preventDefault()
   });
 });
