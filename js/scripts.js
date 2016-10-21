@@ -19,18 +19,16 @@ $(document).ready(function(){
         return ("C#/.NET");
       } else if (interactive === "Yes") {
         return ("Ruby/Rails");
-        }
-
-
-        };
+      }
+    };
 
 
 
 
 
 
-      $("#result").text(choice);
-      $("#hidden").show();
-  event.preventDefault()
+    $("#result").text(choice);
+    $("#hidden").fadeIn();
+    event.preventDefault()
   });
 });
