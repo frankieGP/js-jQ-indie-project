@@ -1,6 +1,19 @@
-#hidden {
-  display: none;
-}
 .btn {
   display: block;
+}
+#hidden {
+  display: none;
+  font-size: 25pt;
+  text-align: center;
+  border: 3px solid purple ;
+  padding-top: 7px;
+}
+body {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  background-size: cover;
+  background-color: rgb(119, 141, 221);
+}
+h1 {
+  font-weight: bold;
+  font-size: 30pt;
 }

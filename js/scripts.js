@@ -10,15 +10,15 @@ $(document).ready(function(){
     var choice = function(){
 
         if (front === "Yes") {
-        return ("Design");
+        return ("CSS/Design");
         }else if (back === "Yes") {
-        return ("PHP");
+        return ("PHP/Drupal");
       } else if (mobile === "Yes") {
-        return ("JAVA");
+        return ("Java/Android");
       } else if (large === "Yes") {
-        return ("C#");
+        return ("C#/.NET");
       } else if (interactive === "Yes") {
-        return ("Ruby");
+        return ("Ruby/Rails");
         }
 
 
